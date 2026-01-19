@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotras",
+    "services": "Servicios",
+    "blog": "Blog",
+    "shop": "Tienda",
+    "contact": "Contacto",
+    "bookConsultation": "Reservar Consulta"
+  },
+  "hero": {
+    "title": "Recupera Tu Bienestar Femenino",
+    "subtitle": "La sabiduría ancestral del Ayurveda se une a la ciencia moderna para apoyar tu camino único hacia la salud hormonal, la fertilidad y la vitalidad.",
+    "cta": "Comienza Tu Camino",
+    "secondary": "Saber Más"
+  },
+  "home": {
+    "introduction": {
+      "title": "Mereces Ser Escuchada",
+      "text": "Si alguna vez te has sentido ignorada por la medicina convencional, no estás sola. En AYURFEM creemos que cada mujer merece una atención personalizada que honre tanto la sabiduría de su cuerpo como la ciencia basada en evidencia.",
+      "stat1": "5000+",
+      "stat1Label": "Mujeres Apoyadas",
+      "stat2": "15+",
+      "stat2Label": "Años de Experiencia",
+      "stat3": "98%",
+      "stat3Label": "Satisfacción del Cliente"
+    },
+    "approach": {
+      "title": "Nuestro Enfoque Holístico",
+      "subtitle": "Unimos la sabiduría ancestral del Ayurveda con la investigación moderna para crear planes de bienestar personalizados.",
+      "pillar1": "Evaluación Personalizada",
+      "pillar1Desc": "Descubre tu constitución única (Prakriti) y desequilibrios actuales a través de una consulta integral.",
+      "pillar2": "Formulaciones Herbales",
+      "pillar2Desc": "Hierbas ayurvédicas premium de origen sostenible, formuladas para las necesidades de la mujer moderna.",
+      "pillar3": "Guía de Estilo de Vida",
+      "pillar3Desc": "Rutinas diarias, nutrición y prácticas adaptadas a tu ciclo y etapa de vida.",
+      "pillar4": "Apoyo Continuo",
+      "pillar4Desc": "Seguimientos regulares y ajustes para asegurar que tu camino de bienestar siga en curso."
+    },
+    "conditions": {
+      "title": "Condiciones que Tratamos",
+      "subtitle": "Atención especializada para problemas de salud femenina frecuentemente ignorados por la medicina convencional.",
+      "pcos": "SOP y Desequilibrio Hormonal",
+      "fertility": "Apoyo a la Fertilidad",
+      "menopause": "Perimenopausia y Menopausia",
+      "thyroid": "Salud de la Tiroides",
+      "digestive": "Bienestar Digestivo",
+      "stress": "Estrés y Ansiedad"
+    },
+    "testimonials": {
+      "title": "Historias de Transformación",
+      "subtitle": "Experiencias reales de mujeres que han recuperado su salud."
+    },
+    "cta": {
+      "title": "¿Lista para Comenzar Tu Camino de Sanación?",
+      "text": "Reserva una llamada de descubrimiento gratuita de 15 minutos para ver si AYURFEM es adecuado para ti.",
+      "button": "Agendar Llamada Gratuita"
+    }
+  },
+  "about": {
+    "title": "Sobre AYURFEM",
+    "subtitle": "Uniendo la sabiduría ancestral con la ciencia moderna para el bienestar femenino.",
+    "mission": {
+      "title": "Nuestra Misión",
+      "text": "AYURFEM se fundó con una creencia simple: cada mujer merece atención médica que escuche. Demasiadas mujeres han sido ignoradas, les han dicho que sus síntomas son 'normales', o les han dado soluciones genéricas que no abordan las causas raíz. Estamos aquí para cambiar eso."
+    },
+    "story": {
+      "title": "Nuestra Historia",
+      "text": "Después de años de lucha personal con desequilibrios hormonales y encontrando poca ayuda en la medicina convencional, nuestra fundadora descubrió el Ayurveda—el sistema de sanación natural de la India con 5,000 años de antigüedad. Esta sabiduría ancestral, combinada con investigación moderna, transformó su salud y encendió una pasión por ayudar a otras mujeres a experimentar lo mismo."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "value1": "Basado en Evidencia",
+      "value1Desc": "Honramos la tradición mientras abrazamos la investigación científica.",
+      "value2": "Atención Personalizada",
+      "value2Desc": "No hay dos mujeres iguales; tampoco nuestros enfoques.",
+      "value3": "Empoderamiento",
+      "value3Desc": "Te educamos y equipamos para que tomes las riendas de tu salud.",
+      "value4": "Sostenibilidad",
+      "value4Desc": "Hierbas de origen ético y prácticas eco-conscientes."
+    }
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Atención ayurvédica integral adaptada a tus necesidades únicas.",
+    "consultation": {
+      "title": "Consultas 1:1",
+      "description": "Sesiones personalizadas en profundidad para entender tu constitución, identificar desequilibrios y crear un plan de bienestar personalizado.",
+      "initial": "Consulta Inicial (90 min)",
+      "initialPrice": "150€",
+      "followup": "Sesión de Seguimiento (60 min)",
+      "followupPrice": "90€",
+      "package": "Paquete de Bienestar 3 Meses",
+      "packagePrice": "450€",
+      "packageIncludes": "Incluye: Consulta inicial + 4 seguimientos + protocolo personalizado"
+    },
+    "programs": {
+      "title": "Programas de Bienestar",
+      "description": "Programas estructurados diseñados para objetivos de salud específicos.",
+      "hormone": "Armonía Hormonal",
+      "hormoneDesc": "Programa de 8 semanas para equilibrio hormonal",
+      "fertility": "Fundamentos de Fertilidad",
+      "fertilityDesc": "Preparación preconcepcional de 12 semanas",
+      "menopause": "Transición Grácil",
+      "menopauseDesc": "Apoyo durante la perimenopausia y menopausia"
+    },
+    "corporate": {
+      "title": "Bienestar Corporativo",
+      "description": "Lleva el bienestar ayurvédico a tu lugar de trabajo con talleres y programas de equipo."
+    },
+    "booking": "Reservar"
+  },
+  "shop": {
+    "title": "Tienda de Bienestar",
+    "subtitle": "Productos ayurvédicos premium para tu ritual diario de bienestar.",
+    "categories": {
+      "all": "Todos los Productos",
+      "herbs": "Suplementos Herbales",
+      "teas": "Tés de Bienestar",
+      "oils": "Aceites Corporales",
+      "kits": "Kits de Bienestar"
+    },
+    "addToCart": "Añadir al Carrito",
+    "viewDetails": "Ver Detalles",
+    "featured": "Productos Destacados"
+  },
+  "blog": {
+    "title": "Diario de Bienestar",
+    "subtitle": "Ideas sobre Ayurveda, salud femenina y vida holística.",
+    "readMore": "Leer Más",
+    "categories": {
+      "all": "Todas las Entradas",
+      "ayurveda": "Básicos de Ayurveda",
+      "hormones": "Salud Hormonal",
+      "recipes": "Recetas",
+      "lifestyle": "Estilo de Vida"
+    },
+    "recent": "Entradas Recientes",
+    "featured": "Artículo Destacado"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Nos encantaría saber de ti. Escríbenos con tus preguntas o para agendar tu consulta.",
+    "form": {
+      "name": "Tu Nombre",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono (opcional)",
+      "subject": "Asunto",
+      "message": "Tu Mensaje",
+      "submit": "Enviar Mensaje",
+      "success": "¡Gracias! Te contactaremos en 24 horas."
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "email": "admin@ayurfem.com",
+      "hours": "Lunes - Viernes: 9:00 - 18:00 CET",
+      "response": "Respondemos en 24 horas"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "q1": "¿Necesito experiencia con Ayurveda?",
+      "a1": "¡Para nada! Damos la bienvenida a principiantes y te guiamos en cada paso.",
+      "q2": "¿Las consultas son online o presenciales?",
+      "a2": "¡Ofrecemos ambas! Consultas online por videollamada o presenciales en ubicaciones seleccionadas.",
+      "q3": "¿Envían productos internacionalmente?",
+      "a3": "Sí, enviamos a toda Europa con envío gratuito en pedidos superiores a 75€."
+    }
+  },
+  "footer": {
+    "tagline": "Sabiduría ancestral para la mujer moderna.",
+    "quickLinks": "Enlaces Rápidos",
+    "connect": "Conectar",
+    "newsletter": {
+      "title": "Únete a Nuestra Comunidad",
+      "placeholder": "Ingresa tu correo",
+      "button": "Suscribirse",
+      "privacy": "Respetamos tu privacidad. Cancela cuando quieras."
+    },
+    "legal": {
+      "privacy": "Política de Privacidad",
+      "terms": "Términos de Servicio",
+      "disclaimer": "Aviso Médico"
+    },
+    "disclaimer": "Aviso: La información proporcionada por AYURFEM es solo para fines educativos y no tiene la intención de diagnosticar, tratar, curar o prevenir ninguna enfermedad. Siempre consulta con un profesional de la salud calificado antes de comenzar cualquier nuevo programa de salud o régimen de suplementos.",
+    "copyright": "© 2026 AYURFEM. Todos los derechos reservados."
+  },
+  "common": {
+    "learnMore": "Saber Más",
+    "readMore": "Leer Más",
+    "bookNow": "Reservar",
+    "viewAll": "Ver Todo",
+    "backToHome": "Volver al Inicio"
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "blog": "Blog",
+    "shop": "Shop",
+    "contact": "Contact",
+    "bookConsultation": "Book Consultation"
+  },
+  "hero": {
+    "title": "Reclaim Your Feminine Wellness",
+    "subtitle": "Ancient Ayurvedic wisdom meets modern science to support your unique journey through hormonal health, fertility, and vitality.",
+    "cta": "Begin Your Journey",
+    "secondary": "Learn More"
+  },
+  "home": {
+    "introduction": {
+      "title": "You Deserve to Be Heard",
+      "text": "If you've ever felt dismissed by conventional medicine, you're not alone. At AYURFEM, we believe every woman deserves personalized care that honors both her body's wisdom and evidence-based science.",
+      "stat1": "5000+",
+      "stat1Label": "Women Supported",
+      "stat2": "15+",
+      "stat2Label": "Years Experience",
+      "stat3": "98%",
+      "stat3Label": "Client Satisfaction"
+    },
+    "approach": {
+      "title": "Our Holistic Approach",
+      "subtitle": "We bridge ancient Ayurvedic wisdom with modern research to create personalized wellness plans.",
+      "pillar1": "Personalized Assessment",
+      "pillar1Desc": "Discover your unique constitution (Prakriti) and current imbalances through comprehensive consultation.",
+      "pillar2": "Herbal Formulations",
+      "pillar2Desc": "Premium Ayurvedic herbs sourced sustainably and formulated for modern women's needs.",
+      "pillar3": "Lifestyle Guidance",
+      "pillar3Desc": "Daily routines, nutrition, and practices tailored to your cycle and life phase.",
+      "pillar4": "Ongoing Support",
+      "pillar4Desc": "Regular check-ins and adjustments to ensure your wellness journey stays on track."
+    },
+    "conditions": {
+      "title": "Conditions We Support",
+      "subtitle": "Specialized care for women's health concerns often overlooked by conventional medicine.",
+      "pcos": "PCOS & Hormonal Imbalance",
+      "fertility": "Fertility Support",
+      "menopause": "Perimenopause & Menopause",
+      "thyroid": "Thyroid Health",
+      "digestive": "Digestive Wellness",
+      "stress": "Stress & Anxiety"
+    },
+    "testimonials": {
+      "title": "Stories of Transformation",
+      "subtitle": "Real experiences from women who've reclaimed their health."
+    },
+    "cta": {
+      "title": "Ready to Begin Your Healing Journey?",
+      "text": "Book a free 15-minute discovery call to see if AYURFEM is right for you.",
+      "button": "Schedule Free Call"
+    }
+  },
+  "about": {
+    "title": "About AYURFEM",
+    "subtitle": "Bridging ancient wisdom with modern science for women's wellness.",
+    "mission": {
+      "title": "Our Mission",
+      "text": "AYURFEM was founded on a simple belief: every woman deserves healthcare that listens. Too many women have been dismissed, told their symptoms are 'normal,' or given one-size-fits-all solutions that don't address root causes. We're here to change that."
+    },
+    "story": {
+      "title": "Our Story",
+      "text": "After years of personal struggle with hormonal imbalances and finding little help in conventional medicine, our founder discovered Ayurveda—India's 5,000-year-old system of natural healing. This ancient wisdom, combined with modern research, transformed her health and ignited a passion to help other women experience the same."
+    },
+    "values": {
+      "title": "Our Values",
+      "value1": "Evidence-Based",
+      "value1Desc": "We honor tradition while embracing scientific research.",
+      "value2": "Personalized Care",
+      "value2Desc": "No two women are alike; neither are our approaches.",
+      "value3": "Empowerment",
+      "value3Desc": "We educate and equip you to take charge of your health.",
+      "value4": "Sustainability",
+      "value4Desc": "Ethically sourced herbs and eco-conscious practices."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive Ayurvedic care tailored to your unique needs.",
+    "consultation": {
+      "title": "1:1 Consultations",
+      "description": "In-depth personalized sessions to understand your constitution, identify imbalances, and create a custom wellness plan.",
+      "initial": "Initial Consultation (90 min)",
+      "initialPrice": "€150",
+      "followup": "Follow-up Session (60 min)",
+      "followupPrice": "€90",
+      "package": "3-Month Wellness Package",
+      "packagePrice": "€450",
+      "packageIncludes": "Includes: Initial consultation + 4 follow-ups + personalized protocol"
+    },
+    "programs": {
+      "title": "Wellness Programs",
+      "description": "Structured programs designed for specific health goals.",
+      "hormone": "Hormone Harmony",
+      "hormoneDesc": "8-week program for hormonal balance",
+      "fertility": "Fertility Foundation",
+      "fertilityDesc": "12-week preconception preparation",
+      "menopause": "Graceful Transition",
+      "menopauseDesc": "Support through perimenopause & menopause"
+    },
+    "corporate": {
+      "title": "Corporate Wellness",
+      "description": "Bring Ayurvedic wellness to your workplace with workshops and team programs."
+    },
+    "booking": "Book Now"
+  },
+  "shop": {
+    "title": "Wellness Shop",
+    "subtitle": "Premium Ayurvedic products for your daily wellness ritual.",
+    "categories": {
+      "all": "All Products",
+      "herbs": "Herbal Supplements",
+      "teas": "Wellness Teas",
+      "oils": "Body Oils",
+      "kits": "Wellness Kits"
+    },
+    "addToCart": "Add to Cart",
+    "viewDetails": "View Details",
+    "featured": "Featured Products"
+  },
+  "blog": {
+    "title": "Wellness Journal",
+    "subtitle": "Insights on Ayurveda, women's health, and holistic living.",
+    "readMore": "Read More",
+    "categories": {
+      "all": "All Posts",
+      "ayurveda": "Ayurveda Basics",
+      "hormones": "Hormonal Health",
+      "recipes": "Recipes",
+      "lifestyle": "Lifestyle"
+    },
+    "recent": "Recent Posts",
+    "featured": "Featured Article"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you. Reach out with questions or to schedule your consultation.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone (optional)",
+      "subject": "Subject",
+      "message": "Your Message",
+      "submit": "Send Message",
+      "success": "Thank you! We'll be in touch within 24 hours."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "admin@ayurfem.com",
+      "hours": "Monday - Friday: 9:00 - 18:00 CET",
+      "response": "We respond within 24 hours"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "q1": "Do I need experience with Ayurveda?",
+      "a1": "Not at all! We welcome beginners and guide you through every step.",
+      "q2": "Are consultations online or in-person?",
+      "a2": "We offer both! Online consultations via video call, or in-person in select locations.",
+      "q3": "Do you ship products internationally?",
+      "a3": "Yes, we ship throughout Europe with free shipping on orders over €75."
+    }
+  },
+  "footer": {
+    "tagline": "Ancient wisdom for modern women.",
+    "quickLinks": "Quick Links",
+    "connect": "Connect",
+    "newsletter": {
+      "title": "Join Our Community",
+      "placeholder": "Enter your email",
+      "button": "Subscribe",
+      "privacy": "We respect your privacy. Unsubscribe anytime."
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "disclaimer": "Medical Disclaimer"
+    },
+    "disclaimer": "Disclaimer: The information provided by AYURFEM is for educational purposes only and is not intended to diagnose, treat, cure, or prevent any disease. Always consult with a qualified healthcare provider before starting any new health program or supplement regimen.",
+    "copyright": "© 2026 AYURFEM. All rights reserved."
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "readMore": "Read More",
+    "bookNow": "Book Now",
+    "viewAll": "View All",
+    "backToHome": "Back to Home"
+  }
+}
