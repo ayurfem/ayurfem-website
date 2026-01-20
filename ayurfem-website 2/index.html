@@ -470,8 +470,10 @@
                 <p>Evidence-based Ayurveda for women's health. No spam. No woo. Just what works.</p>
                 <form class="newsletter-form" action="https://formspree.io/f/your-form-id" method="POST">
                     <input type="email" name="email" placeholder="Your email" required>
+                    <input type="hidden" name="_subject" value="New Newsletter Subscription">
                     <button type="submit" class="btn btn-primary">Subscribe</button>
                 </form>
+                <p class="newsletter-privacy">By subscribing, you agree to our <a href="/privacy-policy.html">Privacy Policy</a>. Unsubscribe anytime.</p>
             </div>
         </div>
     </section>
@@ -510,19 +512,80 @@
                         <li><a href="mailto:admin@ayurfem.com">admin@ayurfem.com</a></li>
                         <li><a href="https://www.linkedin.com/in/sarandaferizi" target="_blank" rel="noopener">LinkedIn</a></li>
                         <li><a href="https://www.instagram.com/ayurfem" target="_blank" rel="noopener">Instagram</a></li>
+                        <li><a href="https://wa.me/34634057003" target="_blank" rel="noopener">WhatsApp</a></li>
                     </ul>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p class="disclaimer">
-                    <strong>Disclaimer:</strong> The information provided is for educational purposes only and is not intended as medical advice. 
-                    Always consult with a qualified healthcare provider before making changes to your health routine. 
+                    <strong>Disclaimer:</strong> The information provided is for educational purposes only and is not intended as medical advice.
+                    Always consult with a qualified healthcare provider before making changes to your health routine.
                     These statements have not been evaluated by the FDA.
                 </p>
+                <div class="footer-legal">
+                    <a href="/privacy-policy.html">Privacy Policy</a>
+                    <a href="/terms.html">Terms of Service</a>
+                    <a href="#" id="cookie-settings-link">Cookie Settings</a>
+                </div>
                 <p class="copyright">© 2025 AYURFEM. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
+    <!-- Cookie Consent Banner -->
+    <div id="cookie-consent" class="cookie-consent">
+        <div class="cookie-consent-container">
+            <div class="cookie-consent-text">
+                <h4>🍪 We Value Your Privacy</h4>
+                <p>We use cookies to enhance your browsing experience and analyze site traffic. By clicking "Accept All", you consent to our use of cookies. <a href="/privacy-policy.html">Learn more</a></p>
+            </div>
+            <div class="cookie-consent-buttons">
+                <button id="cookie-reject" class="cookie-btn cookie-btn-reject">Reject All</button>
+                <button id="cookie-settings" class="cookie-btn cookie-btn-settings">Preferences</button>
+                <button id="cookie-accept" class="cookie-btn cookie-btn-accept">Accept All</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cookie Settings Modal -->
+    <div id="cookie-modal" class="cookie-modal">
+        <div class="cookie-modal-content">
+            <h3>Cookie Preferences</h3>
+            <div class="cookie-option">
+                <div class="cookie-option-header">
+                    <h4>Essential Cookies</h4>
+                    <label class="cookie-toggle">
+                        <input type="checkbox" checked disabled>
+                        <span class="cookie-toggle-slider"></span>
+                    </label>
+                </div>
+                <p>Required for the website to function properly. These cannot be disabled.</p>
+            </div>
+            <div class="cookie-option">
+                <div class="cookie-option-header">
+                    <h4>Analytics Cookies</h4>
+                    <label class="cookie-toggle">
+                        <input type="checkbox" id="analytics-cookies">
+                        <span class="cookie-toggle-slider"></span>
+                    </label>
+                </div>
+                <p>Help us understand how visitors interact with our website to improve user experience.</p>
+            </div>
+            <div class="cookie-option">
+                <div class="cookie-option-header">
+                    <h4>Marketing Cookies</h4>
+                    <label class="cookie-toggle">
+                        <input type="checkbox" id="marketing-cookies">
+                        <span class="cookie-toggle-slider"></span>
+                    </label>
+                </div>
+                <p>Used to deliver personalized advertisements. Currently not in use.</p>
+            </div>
+            <div class="cookie-modal-buttons">
+                <button id="cookie-save" class="cookie-btn cookie-btn-accept">Save Preferences</button>
+            </div>
+        </div>
+    </div>
 
     <script src="js/main.js"></script>
 </body>

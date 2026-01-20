@@ -390,3 +390,163 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('%c🌸 AYURFEM', 'font-size: 24px; font-weight: bold; color: #7D8471;');
     console.log('%cA Woman\'s Complete Companion', 'font-size: 14px; color: #6B6B6B;');
 });
+
+// ========================================
+// Cookie Consent Management - GDPR Compliant
+// ========================================
+
+(function() {
+    const COOKIE_NAME = 'ayurfem_cookie_consent';
+    const COOKIE_EXPIRY_DAYS = 365;
+
+    // Cookie utilities
+    function setCookie(name, value, days) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        const expires = "expires=" + date.toUTCString();
+        document.cookie = name + "=" + JSON.stringify(value) + ";" + expires + ";path=/;SameSite=Lax";
+    }
+
+    function getCookie(name) {
+        const nameEQ = name + "=";
+        const ca = document.cookie.split(';');
+        for (let i = 0; i < ca.length; i++) {
+            let c = ca[i].trim();
+            if (c.indexOf(nameEQ) === 0) {
+                try {
+                    return JSON.parse(c.substring(nameEQ.length));
+                } catch (e) {
+                    return null;
+                }
+            }
+        }
+        return null;
+    }
+
+    // Elements
+    const banner = document.getElementById('cookie-consent');
+    const modal = document.getElementById('cookie-modal');
+    const acceptBtn = document.getElementById('cookie-accept');
+    const rejectBtn = document.getElementById('cookie-reject');
+    const settingsBtn = document.getElementById('cookie-settings');
+    const saveBtn = document.getElementById('cookie-save');
+    const settingsLink = document.getElementById('cookie-settings-link');
+    const analyticsCheckbox = document.getElementById('analytics-cookies');
+    const marketingCheckbox = document.getElementById('marketing-cookies');
+
+    // Check if consent already given
+    function checkConsent() {
+        const consent = getCookie(COOKIE_NAME);
+        if (!consent) {
+            showBanner();
+        } else {
+            applyConsent(consent);
+        }
+    }
+
+    // Show/hide banner
+    function showBanner() {
+        if (banner) {
+            setTimeout(() => {
+                banner.classList.add('show');
+            }, 1000);
+        }
+    }
+
+    function hideBanner() {
+        if (banner) {
+            banner.classList.remove('show');
+        }
+    }
+
+    // Show/hide modal
+    function showModal() {
+        if (modal) {
+            modal.classList.add('show');
+            // Load current preferences
+            const consent = getCookie(COOKIE_NAME);
+            if (consent) {
+                if (analyticsCheckbox) analyticsCheckbox.checked = consent.analytics;
+                if (marketingCheckbox) marketingCheckbox.checked = consent.marketing;
+            }
+        }
+    }
+
+    function hideModal() {
+        if (modal) {
+            modal.classList.remove('show');
+        }
+    }
+
+    // Apply consent settings
+    function applyConsent(consent) {
+        if (consent.analytics) {
+            // Enable analytics - you can add Google Analytics or other tracking here
+            console.log('Analytics cookies enabled');
+        }
+        if (consent.marketing) {
+            // Enable marketing cookies
+            console.log('Marketing cookies enabled');
+        }
+    }
+
+    // Save consent
+    function saveConsent(analytics, marketing) {
+        const consent = {
+            essential: true, // Always true
+            analytics: analytics,
+            marketing: marketing,
+            timestamp: new Date().toISOString()
+        };
+        setCookie(COOKIE_NAME, consent, COOKIE_EXPIRY_DAYS);
+        applyConsent(consent);
+        hideBanner();
+        hideModal();
+    }
+
+    // Event listeners
+    if (acceptBtn) {
+        acceptBtn.addEventListener('click', function() {
+            saveConsent(true, true);
+        });
+    }
+
+    if (rejectBtn) {
+        rejectBtn.addEventListener('click', function() {
+            saveConsent(false, false);
+        });
+    }
+
+    if (settingsBtn) {
+        settingsBtn.addEventListener('click', function() {
+            showModal();
+        });
+    }
+
+    if (saveBtn) {
+        saveBtn.addEventListener('click', function() {
+            const analytics = analyticsCheckbox ? analyticsCheckbox.checked : false;
+            const marketing = marketingCheckbox ? marketingCheckbox.checked : false;
+            saveConsent(analytics, marketing);
+        });
+    }
+
+    if (settingsLink) {
+        settingsLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            showModal();
+        });
+    }
+
+    // Close modal when clicking outside
+    if (modal) {
+        modal.addEventListener('click', function(e) {
+            if (e.target === modal) {
+                hideModal();
+            }
+        });
+    }
+
+    // Initialize
+    document.addEventListener('DOMContentLoaded', checkConsent);
+})();
