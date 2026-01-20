@@ -188,6 +188,13 @@ img {
     color: var(--color-dark);
 }
 
+.logo-image {
+    height: 50px;
+    width: auto;
+    border-radius: var(--radius-sm);
+    object-fit: contain;
+}
+
 .logo-icon {
     font-size: 1.75rem;
 }
@@ -1093,6 +1100,11 @@ img {
 .footer-brand .logo {
     color: var(--color-white);
     margin-bottom: var(--spacing-sm);
+}
+
+.footer-logo {
+    height: 60px;
+    border-radius: var(--radius-md);
 }
 
 .footer-tagline {
