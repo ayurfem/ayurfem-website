@@ -3,57 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AYURFEM | Ayurvedic Women's Health - PCOS, Fertility, Pregnancy, Postpartum</title>
-    <meta name="description" content="AYURFEM: Science-validated Ayurvedic wellness for women. Expert guidance for PCOS treatment, fertility support, pregnancy care, postpartum recovery, and menopause in Spain & Switzerland. Consultations in English, Spanish, French.">
-
-    <!-- SEO Meta Tags -->
-    <meta name="keywords" content="AYURFEM, Ayurveda, women's health, PCOS treatment, PCOS natural treatment, fertility Ayurveda, pregnancy Ayurveda, postpartum care, postpartum recovery, menopause support, hormonal balance, Ayurvedic consultation, holistic women's health, natural fertility, Shatavari, Spain, Switzerland, English, Spanish, French, salud de la mujer, Ayurveda España, santé des femmes, Ayurveda Suisse">
-    <meta name="author" content="AYURFEM">
-    <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://www.ayurfem.com/">
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.ayurfem.com/">
-    <meta property="og:title" content="AYURFEM | Ayurvedic Women's Health - PCOS, Fertility, Pregnancy">
-    <meta property="og:description" content="Science-validated Ayurvedic wellness for women. Expert guidance for PCOS, fertility, pregnancy, postpartum, and menopause.">
-    <meta property="og:image" content="https://www.ayurfem.com/images/logo.jpeg">
-    <meta property="og:locale" content="en_US">
-    <meta property="og:locale:alternate" content="es_ES">
-    <meta property="og:locale:alternate" content="fr_FR">
-
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://www.ayurfem.com/">
-    <meta name="twitter:title" content="AYURFEM | Ayurvedic Women's Health">
-    <meta name="twitter:description" content="Science-validated Ayurvedic wellness for women. PCOS, fertility, pregnancy, postpartum, menopause.">
-    <meta name="twitter:image" content="https://www.ayurfem.com/images/logo.jpeg">
-
-    <!-- Multi-language SEO -->
-    <link rel="alternate" hreflang="en" href="https://www.ayurfem.com/">
-    <link rel="alternate" hreflang="es" href="https://www.ayurfem.com/">
-    <link rel="alternate" hreflang="fr" href="https://www.ayurfem.com/">
-    <link rel="alternate" hreflang="x-default" href="https://www.ayurfem.com/">
-
-    <!-- Structured Data for Google -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "HealthAndBeautyBusiness",
-      "name": "AYURFEM",
-      "description": "Science-validated Ayurvedic wellness consultations for women's health including PCOS, fertility, pregnancy, postpartum care, and menopause support.",
-      "url": "https://www.ayurfem.com",
-      "logo": "https://www.ayurfem.com/images/logo.jpeg",
-      "image": "https://www.ayurfem.com/images/logo.jpeg",
-      "email": "hello@ayurfem.com",
-      "areaServed": ["Spain", "Switzerland", "España", "Suisse"],
-      "availableLanguage": ["English", "Spanish", "French", "Español", "Français"],
-      "priceRange": "$$",
-      "serviceType": ["Ayurvedic Consultation", "PCOS Treatment", "Fertility Support", "Pregnancy Care", "Postpartum Recovery", "Menopause Support", "Holistic Women's Health"],
-      "sameAs": []
-    }
-    </script>
-
+    <title>AYURFEM | A Woman's Complete Companion</title>
+    <meta name="description" content="Science-validated Ayurvedic wellness for women. Personalized guidance for PCOS, fertility, pregnancy, postpartum, and menopause.">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -64,7 +15,8 @@
     <nav class="navbar">
         <div class="nav-container">
             <a href="/" class="logo">
-                <img src="images/logo.jpeg" alt="AYURFEM Logo" class="logo-image">
+                <span class="logo-icon">🌸</span>
+                <span class="logo-text">AYURFEM</span>
             </a>
             <button class="nav-toggle" aria-label="Toggle navigation">
                 <span></span>
@@ -72,24 +24,29 @@
                 <span></span>
             </button>
             <ul class="nav-menu">
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#knowledge">Knowledge</a></li>
-                <li><a href="#science">The Science</a></li>
-                <li><a href="#contact" class="btn btn-nav">Book Consultation</a></li>
+                <li><a href="#about" data-i18n="nav.about">About</a></li>
+                <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                <li><a href="#knowledge" data-i18n="nav.knowledge">Knowledge</a></li>
+                <li><a href="#science" data-i18n="nav.science">The Science</a></li>
+                <li><a href="#contact" class="btn btn-nav" data-i18n="nav.book">Book Consultation</a></li>
             </ul>
+            <div class="language-switcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+                <button class="lang-btn" data-lang="fr">FR</button>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <p class="hero-tagline">A Woman's Complete Companion</p>
-            <h1>You're Not Crazy.<br>Your Body Is Speaking.</h1>
-            <p class="hero-subtitle">Science-validated Ayurvedic wisdom for women who've been dismissed, overlooked, or told "it's all in your head."</p>
+            <p class="hero-tagline" data-i18n="hero.tagline">A Woman's Complete Companion</p>
+            <h1 data-i18n="hero.title">You're Not Crazy.<br>Your Body Is Speaking.</h1>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Science-validated Ayurvedic wisdom for women who've been dismissed, overlooked, or told "it's all in your head."</p>
             <div class="hero-cta">
-                <a href="#services" class="btn btn-primary">Explore Services</a>
-                <a href="#about" class="btn btn-secondary">My Story</a>
+                <a href="#services" class="btn btn-primary" data-i18n="hero.cta1">Explore Services</a>
+                <a href="#about" class="btn btn-secondary" data-i18n="hero.cta2">My Story</a>
             </div>
         </div>
         <div class="hero-decoration">
@@ -105,19 +62,19 @@
             <div class="trust-items">
                 <div class="trust-item">
                     <span class="trust-number">10+</span>
-                    <span class="trust-label">Years Experience</span>
+                    <span class="trust-label" data-i18n="trust.years">Years Experience</span>
                 </div>
                 <div class="trust-item">
                     <span class="trust-number">1.5</span>
-                    <span class="trust-label">Years Training in India</span>
+                    <span class="trust-label" data-i18n="trust.training">Years Training in India</span>
                 </div>
                 <div class="trust-item">
                     <span class="trust-number">100+</span>
-                    <span class="trust-label">Women Supported</span>
+                    <span class="trust-label" data-i18n="trust.women">Women Supported</span>
                 </div>
                 <div class="trust-item">
                     <span class="trust-number">∞</span>
-                    <span class="trust-label">Ancient Wisdom</span>
+                    <span class="trust-label" data-i18n="trust.wisdom">Ancient Wisdom</span>
                 </div>
             </div>
         </div>
@@ -127,16 +84,16 @@
     <section class="problem-section">
         <div class="container">
             <div class="problem-content">
-                <h2>Have You Ever Been Told...</h2>
+                <h2 data-i18n="problem.title">Have You Ever Been Told...</h2>
                 <div class="problem-quotes">
-                    <blockquote>"Just lose weight and it will fix itself"</blockquote>
-                    <blockquote>"Your labs are normal, there's nothing wrong"</blockquote>
-                    <blockquote>"That's just part of being a woman"</blockquote>
-                    <blockquote>"Here's a prescription. Next patient."</blockquote>
+                    <blockquote data-i18n="problem.quote1">"Just lose weight and it will fix itself"</blockquote>
+                    <blockquote data-i18n="problem.quote2">"Your labs are normal, there's nothing wrong"</blockquote>
+                    <blockquote data-i18n="problem.quote3">"That's just part of being a woman"</blockquote>
+                    <blockquote data-i18n="problem.quote4">"Here's a prescription. Next patient."</blockquote>
                 </div>
-                <p class="problem-statement">
-                    If you've felt dismissed, unheard, or abandoned by conventional medicine—you're not alone. 
-                    <strong>29% of women report feeling dismissed by their doctors.</strong> 
+                <p class="problem-statement" data-i18n="problem.statement">
+                    If you've felt dismissed, unheard, or abandoned by conventional medicine—you're not alone.
+                    <strong>29% of women report feeling dismissed by their doctors.</strong>
                     You deserve answers that honor both ancient wisdom and modern science.
                 </p>
             </div>
@@ -292,21 +249,21 @@
                     <div class="article-category">PCOS</div>
                     <h3>PCOS: What Your Doctor Didn't Tell You</h3>
                     <p>Why the "just lose weight" advice fails—and what actually works according to both Ayurveda and modern research.</p>
-                    <a href="articles/pcos-what-your-doctor-didnt-tell-you.html" class="article-link">Read Article →</a>
+                    <a href="#" class="article-link">Read Article →</a>
                 </article>
 
                 <article class="article-card">
                     <div class="article-category">Research</div>
                     <h3>Shatavari: The 2025 Study That Changes Everything</h3>
                     <p>New clinical evidence shows 41% cyst reduction. Here's what the science says about this ancient herb.</p>
-                    <a href="articles/shatavari-2025-study.html" class="article-link">Read Article →</a>
+                    <a href="#" class="article-link">Read Article →</a>
                 </article>
 
                 <article class="article-card">
                     <div class="article-category">Postpartum</div>
                     <h3>The First 40 Days: Why Recovery Isn't Optional</h3>
                     <p>Every traditional culture understood this. Modern medicine forgot. Here's what you need to know.</p>
-                    <a href="articles/first-40-days-postpartum.html" class="article-link">Read Article →</a>
+                    <a href="#" class="article-link">Read Article →</a>
                 </article>
             </div>
         </div>
@@ -377,15 +334,15 @@
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-info">
-                    <p class="section-label">Begin Your Journey</p>
-                    <h2>Let's Talk</h2>
-                    <p>Whether you're struggling with PCOS, preparing for pregnancy, recovering postpartum, or navigating menopause—you don't have to do it alone.</p>
-                    <p>Book a consultation and let's create a personalized path forward, together.</p>
+                    <p class="section-label" data-i18n="contact.label">Begin Your Journey</p>
+                    <h2 data-i18n="contact.title">Let's Talk</h2>
+                    <p data-i18n="contact.desc1">Whether you're struggling with PCOS, preparing for pregnancy, recovering postpartum, or navigating menopause—you don't have to do it alone.</p>
+                    <p data-i18n="contact.desc2">Book a consultation and let's create a personalized path forward, together.</p>
                     
                     <div class="contact-details">
                         <div class="contact-item">
                             <span class="contact-icon">📧</span>
-                            <a href="mailto:hello@ayurfem.com">hello@ayurfem.com</a>
+                            <a href="mailto:admin@ayurfem.com">admin@ayurfem.com</a>
                         </div>
                     </div>
                 </div>
@@ -465,7 +422,7 @@
                 <div class="footer-links">
                     <h4>Connect</h4>
                     <ul>
-                        <li><a href="mailto:hello@ayurfem.com">hello@ayurfem.com</a></li>
+                        <li><a href="mailto:admin@ayurfem.com">admin@ayurfem.com</a></li>
                         <li><a href="#">Instagram</a></li>
                     </ul>
                 </div>
