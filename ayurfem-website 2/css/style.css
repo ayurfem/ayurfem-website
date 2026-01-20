@@ -911,6 +911,13 @@ img {
     color: var(--color-primary);
 }
 
+.article-link.coming-soon {
+    color: var(--color-text-light);
+    font-style: italic;
+    font-weight: 400;
+    cursor: default;
+}
+
 /* ========================================
    SCIENCE SECTION
    ======================================== */
@@ -1252,32 +1259,174 @@ img {
         border-left: none;
         margin-right: auto;
     }
-    
+
+    /* Hero Section Mobile */
+    .hero {
+        padding: 100px var(--spacing-md) var(--spacing-lg);
+        min-height: auto;
+    }
+
+    .hero-content {
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+
+    .hero-background-logo {
+        width: 300px;
+        height: 300px;
+        opacity: 0.08;
+    }
+
+    /* About Section Mobile */
+    .about-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+        text-align: center;
+    }
+
+    .about-image {
+        order: -1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .about-image .profile-photo {
+        max-width: 280px;
+    }
+
+    .about-credentials {
+        align-items: center;
+    }
+
+    .credential {
+        justify-content: center;
+        text-align: left;
+    }
+
+    /* Research Section Mobile */
+    .research-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .research-card {
+        padding: var(--spacing-md);
+    }
+
+    .research-card.featured {
+        grid-column: span 1;
+    }
+
+    /* Conditions Section Mobile */
+    .conditions-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: var(--spacing-sm);
+    }
+
+    .condition-card {
+        padding: var(--spacing-sm);
+    }
+
+    .condition-card h4 {
+        font-size: 0.9rem;
+    }
+
+    .condition-card p {
+        font-size: 0.8rem;
+    }
+
+    /* Articles Section Mobile */
+    .articles-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    /* Science Section Mobile */
+    .science-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
     .evidence-chain {
         flex-direction: column;
+        gap: var(--spacing-sm);
     }
-    
+
     .chain-arrow {
         transform: rotate(90deg);
     }
-    
+
+    .chain-step {
+        width: 100%;
+    }
+
+    /* Contact/Collaborate Section Mobile */
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: var(--spacing-md);
+    }
+
+    .collaborate-types {
+        gap: var(--spacing-sm);
+    }
+
+    /* Newsletter Mobile */
     .newsletter-form {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .newsletter-form input {
         width: 100%;
         max-width: none;
     }
-    
+
+    .newsletter-form button {
+        width: 100%;
+    }
+
+    /* Footer Mobile */
     .footer-grid {
         grid-template-columns: 1fr;
         text-align: center;
+        gap: var(--spacing-md);
     }
-    
+
     .footer-brand {
         margin-bottom: var(--spacing-md);
+    }
+
+    .footer-links ul {
+        padding: 0;
+    }
+
+    .footer-legal {
+        justify-content: center;
+    }
+
+    /* Section spacing mobile */
+    section {
+        padding: var(--spacing-lg) var(--spacing-sm);
+    }
+
+    .section-label {
+        font-size: 0.75rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .section-intro {
+        font-size: 1rem;
     }
 }
 
