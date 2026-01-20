@@ -389,6 +389,27 @@ document.addEventListener('DOMContentLoaded', function() {
     // Console welcome message
     console.log('%c🌸 AYURFEM', 'font-size: 24px; font-weight: bold; color: #7D8471;');
     console.log('%cA Woman\'s Complete Companion', 'font-size: 14px; color: #6B6B6B;');
+
+    // FAQ Accordion
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(item => {
+        const question = item.querySelector('.faq-question');
+        if (question) {
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                // Close all other items
+                faqItems.forEach(otherItem => {
+                    otherItem.classList.remove('active');
+                    otherItem.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+                });
+                // Toggle current item
+                if (!isActive) {
+                    item.classList.add('active');
+                    question.setAttribute('aria-expanded', 'true');
+                }
+            });
+        }
+    });
 });
 
 // ========================================

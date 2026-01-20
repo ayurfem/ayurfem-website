@@ -1,6 +1,17 @@
 # AYURFEM Website Changelog
 
-## January 20, 2026
+## January 20, 2026 - Update 2
+
+### Latest Changes
+- Added FAQ section with 6 questions/answers
+- Added floating WhatsApp connect button
+- Added copyright protection warning in footer
+- Fixed article links (now pointing to actual articles)
+- Enhanced mobile responsiveness
+
+---
+
+## January 20, 2026 - Initial Session
 
 ### Session Summary - Complete Implementation
 
