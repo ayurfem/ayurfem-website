@@ -25,10 +25,10 @@
             </button>
             <ul class="nav-menu">
                 <li><a href="#about" data-i18n="nav.about">About</a></li>
-                <li><a href="#services" data-i18n="nav.services">Services</a></li>
+                <li><a href="#research" data-i18n="nav.research">Research</a></li>
                 <li><a href="#knowledge" data-i18n="nav.knowledge">Knowledge</a></li>
                 <li><a href="#science" data-i18n="nav.science">The Science</a></li>
-                <li><a href="#contact" class="btn btn-nav" data-i18n="nav.book">Book Consultation</a></li>
+                <li><a href="#collaborate" class="btn btn-nav" data-i18n="nav.collaborate">Collaborate</a></li>
             </ul>
             <div class="language-switcher">
                 <button class="lang-btn active" data-lang="en">EN</button>
@@ -45,8 +45,8 @@
             <h1 data-i18n="hero.title">You're Not Crazy.<br>Your Body Is Speaking.</h1>
             <p class="hero-subtitle" data-i18n="hero.subtitle">Science-validated Ayurvedic wisdom for women who've been dismissed, overlooked, or told "it's all in your head."</p>
             <div class="hero-cta">
-                <a href="#services" class="btn btn-primary" data-i18n="hero.cta1">Explore Services</a>
-                <a href="#about" class="btn btn-secondary" data-i18n="hero.cta2">My Story</a>
+                <a href="#research" class="btn btn-primary" data-i18n="hero.cta1">Our Research</a>
+                <a href="#collaborate" class="btn btn-secondary" data-i18n="hero.cta2">Collaborate With Us</a>
             </div>
         </div>
         <div class="hero-decoration">
@@ -134,64 +134,105 @@
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="services-section">
+    <!-- Research Section -->
+    <section id="research" class="research-section">
         <div class="container">
-            <p class="section-label">Services</p>
-            <h2>Personalized Care for Your Journey</h2>
-            <p class="section-intro">Every woman is unique. Your constitution, your imbalances, your path to wellness—all deserve individualized attention.</p>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">🌿</div>
-                    <h3>Initial Consultation</h3>
-                    <p class="service-duration">90 minutes</p>
-                    <ul class="service-includes">
-                        <li>Complete Prakriti (constitution) assessment</li>
-                        <li>Health history through Ayurvedic lens</li>
-                        <li>Personalized protocol development</li>
-                        <li>Written summary within 48 hours</li>
-                    </ul>
-                    <p class="service-price">$297</p>
-                    <a href="#contact" class="btn btn-primary">Book Now</a>
+            <p class="section-label" data-i18n="research.label">Our Research</p>
+            <h2 data-i18n="research.title">Building the Evidence Base for Women's Ayurvedic Health</h2>
+            <p class="section-intro" data-i18n="research.intro">We're bridging the gap between ancient Ayurvedic wisdom and modern clinical validation. Our research focuses on creating evidence chains that connect traditional practices to measurable outcomes.</p>
+
+            <div class="research-grid">
+                <div class="research-card">
+                    <div class="research-icon">🔬</div>
+                    <h3 data-i18n="research.menopause.title">Menopausal Symptom Management</h3>
+                    <div class="research-status">
+                        <span class="status-badge active" data-i18n="research.status.active">Active Research</span>
+                    </div>
+                    <p data-i18n="research.menopause.desc">Investigating Shatavari and Ashwagandha protocols for hot flashes, night sweats, and hormonal balance. Building on clinical trials showing 85% reduction in symptoms.</p>
+                    <div class="research-focus">
+                        <span class="focus-tag">Shatavari</span>
+                        <span class="focus-tag">Ashwagandha</span>
+                        <span class="focus-tag">HRT Alternatives</span>
+                    </div>
                 </div>
 
-                <div class="service-card featured">
-                    <div class="service-badge">Most Popular</div>
-                    <div class="service-icon">🌺</div>
-                    <h3>3-Month Transformation</h3>
-                    <p class="service-duration">Complete Program</p>
-                    <ul class="service-includes">
-                        <li>Initial consultation (90 min)</li>
-                        <li>4 follow-up sessions</li>
-                        <li>WhatsApp/email support between sessions</li>
-                        <li>Protocol adjustments as you progress</li>
-                        <li>Personalized herbal recommendations</li>
-                    </ul>
-                    <p class="service-price">$697 <span class="price-note">Save $200</span></p>
-                    <a href="#contact" class="btn btn-primary">Apply Now</a>
+                <div class="research-card featured">
+                    <div class="research-badge" data-i18n="research.badge.flagship">Flagship Study</div>
+                    <div class="research-icon">🧬</div>
+                    <h3 data-i18n="research.pcos.title">PCOS Integrative Protocol</h3>
+                    <div class="research-status">
+                        <span class="status-badge active" data-i18n="research.status.active">Active Research</span>
+                    </div>
+                    <p data-i18n="research.pcos.desc">Developing comprehensive protocols combining Ayurvedic herbs (Cinnamon, Shatavari, Kanchanar) with lifestyle interventions. Documenting quality of life improvements and cycle regularization.</p>
+                    <div class="research-focus">
+                        <span class="focus-tag">PCOS</span>
+                        <span class="focus-tag">Metabolic Health</span>
+                        <span class="focus-tag">Cycle Regulation</span>
+                    </div>
                 </div>
 
-                <div class="service-card">
-                    <div class="service-icon">🍃</div>
-                    <h3>Follow-Up Session</h3>
-                    <p class="service-duration">45 minutes</p>
-                    <ul class="service-includes">
-                        <li>Progress review</li>
-                        <li>Protocol adjustments</li>
-                        <li>Address new concerns</li>
-                        <li>Ongoing guidance</li>
-                    </ul>
-                    <p class="service-price">$127</p>
-                    <a href="#contact" class="btn btn-primary">Book Now</a>
+                <div class="research-card">
+                    <div class="research-icon">🤰</div>
+                    <h3 data-i18n="research.postpartum.title">Sutika Paricharya (Postpartum Recovery)</h3>
+                    <div class="research-status">
+                        <span class="status-badge active" data-i18n="research.status.active">Active Research</span>
+                    </div>
+                    <p data-i18n="research.postpartum.desc">Documenting the traditional 42-day postpartum recovery protocol. Studying Abhyanga, specialized diet (Yavagu), and Vata-pacifying practices for modern validation.</p>
+                    <div class="research-focus">
+                        <span class="focus-tag">Postpartum Care</span>
+                        <span class="focus-tag">Abhyanga</span>
+                        <span class="focus-tag">Recovery Protocols</span>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <div class="research-icon">🌺</div>
+                    <h3 data-i18n="research.fertility.title">Fertility Enhancement</h3>
+                    <div class="research-status">
+                        <span class="status-badge planning" data-i18n="research.status.planning">Planning Phase</span>
+                    </div>
+                    <p data-i18n="research.fertility.desc">Exploring Ashwagandha and Shatavari for folliculogenesis and ovulation support. Comparing outcomes with conventional treatments like Clomiphene citrate.</p>
+                    <div class="research-focus">
+                        <span class="focus-tag">Fertility</span>
+                        <span class="focus-tag">Ovulation</span>
+                        <span class="focus-tag">Comparative Studies</span>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <div class="research-icon">📚</div>
+                    <h3 data-i18n="research.ayurgenomics.title">Ayurgenomics & Prakriti</h3>
+                    <div class="research-status">
+                        <span class="status-badge planning" data-i18n="research.status.planning">Planning Phase</span>
+                    </div>
+                    <p data-i18n="research.ayurgenomics.desc">Investigating connections between Ayurvedic constitution types (Prakriti) and genomic markers. Exploring personalized medicine through the lens of 5,000 years of traditional knowledge.</p>
+                    <div class="research-focus">
+                        <span class="focus-tag">Prakriti</span>
+                        <span class="focus-tag">Genomics</span>
+                        <span class="focus-tag">Personalized Medicine</span>
+                    </div>
+                </div>
+
+                <div class="research-card">
+                    <div class="research-icon">🍯</div>
+                    <h3 data-i18n="research.apitherapy.title">Apitherapy & Royal Jelly</h3>
+                    <div class="research-status">
+                        <span class="status-badge exploring" data-i18n="research.status.exploring">Exploring</span>
+                    </div>
+                    <p data-i18n="research.apitherapy.desc">Investigating the therapeutic potential of royal jelly and bee products for hormonal health, fertility support, and menopausal symptoms.</p>
+                    <div class="research-focus">
+                        <span class="focus-tag">Royal Jelly</span>
+                        <span class="focus-tag">Bee Products</span>
+                        <span class="focus-tag">Hormonal Health</span>
+                    </div>
                 </div>
             </div>
 
-            <div class="services-home">
-                <div class="home-services-content">
-                    <h3>🏠 Home Services</h3>
-                    <p>Specialized treatments in the comfort of your home: pregnancy massage, postpartum recovery protocols, Abhyanga (oil massage), and more.</p>
-                    <a href="#contact" class="btn btn-secondary">Join Waitlist</a>
+            <div class="research-cta">
+                <div class="research-cta-content">
+                    <h3 data-i18n="research.cta.title">🤝 Join Our Research Network</h3>
+                    <p data-i18n="research.cta.desc">We're seeking researchers, practitioners, and institutions interested in building evidence-based integrative women's health protocols. Together, we can bridge ancient wisdom and modern science.</p>
+                    <a href="#collaborate" class="btn btn-primary" data-i18n="research.cta.button">Propose a Collaboration</a>
                 </div>
             </div>
         </div>
@@ -329,16 +370,40 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+    <!-- Collaboration Section -->
+    <section id="collaborate" class="contact-section collaborate-section">
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-info">
-                    <p class="section-label" data-i18n="contact.label">Begin Your Journey</p>
-                    <h2 data-i18n="contact.title">Let's Talk</h2>
-                    <p data-i18n="contact.desc1">Whether you're struggling with PCOS, preparing for pregnancy, recovering postpartum, or navigating menopause—you don't have to do it alone.</p>
-                    <p data-i18n="contact.desc2">Book a consultation and let's create a personalized path forward, together.</p>
-                    
+                    <p class="section-label" data-i18n="collaborate.label">Research Collaboration</p>
+                    <h2 data-i18n="collaborate.title">Let's Build Evidence Together</h2>
+                    <p data-i18n="collaborate.desc1">We're actively seeking collaborators who share our vision of bridging Ayurvedic tradition with clinical science. Whether you're a researcher, practitioner, institution, or simply passionate about women's integrative health.</p>
+                    <p data-i18n="collaborate.desc2">Let's create something meaningful—rigorous research that honors both ancient wisdom and modern methodology.</p>
+
+                    <div class="collaborate-types">
+                        <div class="collaborate-type">
+                            <span class="collaborate-icon">🎓</span>
+                            <div>
+                                <strong data-i18n="collaborate.type1.title">Academic Partners</strong>
+                                <p data-i18n="collaborate.type1.desc">Universities and research institutions interested in integrative medicine studies</p>
+                            </div>
+                        </div>
+                        <div class="collaborate-type">
+                            <span class="collaborate-icon">🏥</span>
+                            <div>
+                                <strong data-i18n="collaborate.type2.title">Clinical Practitioners</strong>
+                                <p data-i18n="collaborate.type2.desc">Ayurvedic doctors, naturopaths, and integrative health practitioners</p>
+                            </div>
+                        </div>
+                        <div class="collaborate-type">
+                            <span class="collaborate-icon">💡</span>
+                            <div>
+                                <strong data-i18n="collaborate.type3.title">Industry Partners</strong>
+                                <p data-i18n="collaborate.type3.desc">Wellness brands, supplement companies, and health tech innovators</p>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="contact-details">
                         <div class="contact-item">
                             <span class="contact-icon">📧</span>
@@ -347,29 +412,47 @@
                     </div>
                 </div>
                 <div class="contact-form-wrapper">
-                    <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+                    <form class="contact-form collaboration-form" action="https://formspree.io/f/your-form-id" method="POST">
                         <div class="form-group">
-                            <label for="name">Name</label>
+                            <label for="name" data-i18n="form.name">Name</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
-                            <label for="email">Email</label>
+                            <label for="email" data-i18n="form.email">Email</label>
                             <input type="email" id="email" name="email" required>
                         </div>
                         <div class="form-group">
-                            <label for="interest">I'm interested in</label>
-                            <select id="interest" name="interest">
-                                <option value="consultation">Initial Consultation</option>
-                                <option value="program">3-Month Program</option>
-                                <option value="home-services">Home Services (Waitlist)</option>
-                                <option value="question">I have a question</option>
+                            <label for="organization" data-i18n="form.organization">Organization / Affiliation</label>
+                            <input type="text" id="organization" name="organization" placeholder="University, clinic, company, or independent">
+                        </div>
+                        <div class="form-group">
+                            <label for="collaboration-type" data-i18n="form.collaboration_type">Collaboration Interest</label>
+                            <select id="collaboration-type" name="collaboration-type">
+                                <option value="research-partner" data-i18n="form.option.research">Research Partnership</option>
+                                <option value="clinical-trial" data-i18n="form.option.clinical">Clinical Trial Collaboration</option>
+                                <option value="data-sharing" data-i18n="form.option.data">Data Sharing / Evidence Base</option>
+                                <option value="practitioner-network" data-i18n="form.option.practitioner">Practitioner Network</option>
+                                <option value="content-contribution" data-i18n="form.option.content">Content / Knowledge Contribution</option>
+                                <option value="other" data-i18n="form.option.other">Other</option>
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="message">Tell me about your journey</label>
-                            <textarea id="message" name="message" rows="4" placeholder="What brings you here? What are you hoping to address?"></textarea>
+                            <label for="research-area" data-i18n="form.research_area">Research Area of Interest</label>
+                            <select id="research-area" name="research-area">
+                                <option value="menopause" data-i18n="form.area.menopause">Menopausal Symptom Management</option>
+                                <option value="pcos" data-i18n="form.area.pcos">PCOS Integrative Protocols</option>
+                                <option value="postpartum" data-i18n="form.area.postpartum">Postpartum Recovery (Sutika Paricharya)</option>
+                                <option value="fertility" data-i18n="form.area.fertility">Fertility Enhancement</option>
+                                <option value="ayurgenomics" data-i18n="form.area.ayurgenomics">Ayurgenomics & Prakriti</option>
+                                <option value="apitherapy" data-i18n="form.area.apitherapy">Apitherapy & Royal Jelly</option>
+                                <option value="multiple" data-i18n="form.area.multiple">Multiple Areas</option>
+                            </select>
                         </div>
-                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        <div class="form-group">
+                            <label for="message" data-i18n="form.proposal">Tell us about your proposed collaboration</label>
+                            <textarea id="message" name="message" rows="4" placeholder="What's your vision for collaboration? What expertise or resources can you contribute?"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" data-i18n="form.submit">Submit Collaboration Proposal</button>
                     </form>
                 </div>
             </div>
@@ -406,17 +489,17 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li><a href="#about">About</a></li>
-                        <li><a href="#services">Services</a></li>
+                        <li><a href="#research">Research</a></li>
                         <li><a href="#knowledge">Knowledge Hub</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#collaborate">Collaborate</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">
-                    <h4>Services</h4>
+                    <h4>Research Areas</h4>
                     <ul>
-                        <li><a href="#services">Consultations</a></li>
-                        <li><a href="#services">3-Month Program</a></li>
-                        <li><a href="#services">Home Services</a></li>
+                        <li><a href="#research">PCOS Protocols</a></li>
+                        <li><a href="#research">Menopause Studies</a></li>
+                        <li><a href="#research">Postpartum Recovery</a></li>
                     </ul>
                 </div>
                 <div class="footer-links">

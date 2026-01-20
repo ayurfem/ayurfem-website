@@ -587,6 +587,174 @@ img {
 }
 
 /* ========================================
+   RESEARCH SECTION
+   ======================================== */
+.research-section {
+    padding: var(--spacing-xl) 0;
+    background: var(--color-warm-light);
+    text-align: center;
+}
+
+.research-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.research-card {
+    background: var(--color-white);
+    padding: var(--spacing-md);
+    border-radius: var(--radius-lg);
+    text-align: left;
+    position: relative;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.research-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.research-card.featured {
+    border-color: var(--color-primary);
+}
+
+.research-badge {
+    position: absolute;
+    top: -12px;
+    left: var(--spacing-md);
+    background: var(--color-primary);
+    color: var(--color-white);
+    padding: 0.25rem 1rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.research-icon {
+    font-size: 2.5rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.research-card h3 {
+    margin-bottom: var(--spacing-xs);
+    font-size: 1.3rem;
+}
+
+.research-status {
+    margin-bottom: var(--spacing-sm);
+}
+
+.status-badge {
+    display: inline-block;
+    padding: 0.2rem 0.75rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-badge.active {
+    background: #D4EDDA;
+    color: #155724;
+}
+
+.status-badge.planning {
+    background: #FFF3CD;
+    color: #856404;
+}
+
+.status-badge.exploring {
+    background: #D1ECF1;
+    color: #0C5460;
+}
+
+.research-card p {
+    color: var(--color-text-light);
+    font-size: 0.95rem;
+    margin-bottom: var(--spacing-sm);
+}
+
+.research-focus {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.focus-tag {
+    background: var(--color-warm);
+    color: var(--color-text);
+    padding: 0.25rem 0.75rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.research-cta {
+    background: var(--color-white);
+    padding: var(--spacing-lg);
+    border-radius: var(--radius-lg);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.research-cta h3 {
+    margin-bottom: var(--spacing-sm);
+}
+
+.research-cta p {
+    margin-bottom: var(--spacing-md);
+}
+
+/* ========================================
+   COLLABORATION SECTION
+   ======================================== */
+.collaborate-section {
+    background: linear-gradient(135deg, var(--color-warm-light) 0%, var(--color-white) 100%);
+}
+
+.collaborate-types {
+    margin: var(--spacing-md) 0;
+}
+
+.collaborate-type {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    padding: var(--spacing-sm);
+    background: var(--color-white);
+    border-radius: var(--radius-md);
+    border-left: 3px solid var(--color-primary);
+}
+
+.collaborate-icon {
+    font-size: 1.5rem;
+}
+
+.collaborate-type strong {
+    display: block;
+    margin-bottom: 0.25rem;
+    color: var(--color-dark);
+}
+
+.collaborate-type p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+}
+
+.collaboration-form .form-group {
+    margin-bottom: var(--spacing-sm);
+}
+
+/* ========================================
    CONDITIONS SECTION
    ======================================== */
 .conditions-section {
